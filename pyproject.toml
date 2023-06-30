@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sic"
+version = "0.1.0-dev"
+description = "A simple Python chess engine."
+authors = ["Virinas-code <alexcode228@gmail.com>", "ZeBox"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "sic"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.12"
+python-chess = "^1.999"
+click = "^8.1.3"
+
+[tool.poetry.scripts]
+sic-uci = 'sic:uci'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
