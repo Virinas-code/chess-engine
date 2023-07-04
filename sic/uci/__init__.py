@@ -44,7 +44,7 @@ class UCI:
 
         Prints ID and starts main loop.
         """
-        self.commands.uci_id([])
+        self.commands.uci_id()
         self.main_loop()
 
     def main_loop(self) -> None:

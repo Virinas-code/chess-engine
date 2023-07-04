@@ -27,4 +27,10 @@ Launches the CLI
 from . import cli
 
 if __name__ == "__main__":
+    print(
+        """SIC - SImple Chess Engine  Copyright (C) 2023  Virinas-code
+This program comes with ABSOLUTELY NO WARRANTY; for details type 'sic:license w'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type 'sic:license c' for details."""
+    )
     cli()
